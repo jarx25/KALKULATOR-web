@@ -1,0 +1,71 @@
+*{
+margin: 5px;
+padding: 4px;
+box-sizing: border-box;
+font-family: 'Lato', sans-serif;
+background-color:  #b6b1a7;
+}
+body {
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    text-align: center;
+}
+div h2 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+div hr {
+    margin: 20px;
+}
+div input[type=number]{
+    margin: 8px 0;
+    padding: 8px;
+    width: 100%;
+    font-size: 13px;
+}
+div input[type=number]:read-only {
+    border: 2px solid #03010a;
+    background-color: #000000;
+    color:  #eee4e4;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+div select{
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    font-size: 15px;
+    background-color:  #000000;
+    color:  #eee4e4;
+    text-align: #eee4e4;
+}
+div button {
+    margin: 0 4px;
+    padding: 6px 0;
+    width: 62px;
+    border: 1px solid #3e16ce;
+
+
+}
+div button {
+    margin: 0 4px;
+    padding: 4px 0;
+    width: 70px;
+    border: 1px solid #03010a;
+    background-color:  #000000;
+    color:  #eee4e4;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+div button:hover {
+    background-color:  #050303;
+}
+div button:focus {
+    outline:  2px solid #818c8f;
+}
